@@ -33,11 +33,10 @@ function Home() {
           style={{ minHeight: bannerHeight, display: isLoading ? "none" : "block" }}
         >
           <p>Hi, my name is</p>
-          <h1 className="text-success">Evan Tay.</h1>
+          <h1 className="text-success">tiff.</h1>
           <p>
-            I am a <span className="text-warning">Software Engineer</span> and{" "}
-            <span className="text-danger">Cloud Engineer</span> passionate about
-            solving meaningful problems.
+            I am a <span className="text-warning">frontend engineer</span> looking to move to {" "}
+            <span className="text-danger">cybersecurity & malware analysis</span>. i'm also passionate about home labs and devops.
           </p>
           <SocialLinks />
           <p>
@@ -60,57 +59,6 @@ function Home() {
               src={useBaseUrl("img/profilepic.jpg")}
             />
           </div>
-          <div className={styles.aboutText}>
-            <h2>Hi</h2>
-            <p>
-              🇸🇬 I am Evan, a Full Stack Software Engineer and Certified Cloud
-              Engineer based in Singapore.
-            </p>
-            <p>
-              🚀 I love building cool and meaningful things with tech like {" "}
-              <Link to={useBaseUrl("projects/")}>
-                websites, applications or games
-              </Link>
-              .
-            </p>
-            <p>
-              🌏 To me, coding is the closest thing to magic we have on Earth.
-            </p>
-            <p>
-              👨‍💻 I have been writing beautiful code at <a href="https://padlet.com">Padlet</a>{" "}
-              since 2021.
-            </p>
-            <p>
-              🎒 I was a{" "}
-              <a href="https://www.comp.nus.edu.sg/programmes/ug/cs/">
-                Computer Science major
-              </a>{" "}
-              at the{" "}
-              <a href="https://www.comp.nus.edu.sg/">
-                National University of Singapore
-              </a>{" "}
-              from 2017 to 2020.
-            </p>
-            <p>
-              🧑‍🏫 Back then, I was a{" "}
-              <a href="https://github.com/DigiPie/CS1010-Tutorial-C09">
-                Teaching Assistant
-              </a>{" "}
-              for Programming Methodology and Networking courses.
-            </p>
-            <p>
-              🛼 I was also Deputy Head of
-              Technology for the{" "}
-              <a href="https://dscnustech.github.io/">
-                NUS Google Developer Student Club
-              </a>
-              , and President of the{" "}
-              <a href="https://www.instagram.com/nusskating/">
-                NUS Skating Club
-              </a>
-              . 
-            </p>
-          </div>
         </div>
         <section className={styles.directory}>
           <div className="container">
@@ -125,7 +73,7 @@ function Home() {
               <div className="pagination-nav__item pagination-nav__item--next">
                 <Link className="pagination-nav__link" to={useBaseUrl("docs/")}>
                   <div className="pagination-nav__sublabel">Refer to</div>
-                  <div className="pagination-nav__label">My docs</div>
+                  <div className="pagination-nav__label">My analysis</div>
                 </Link>
               </div>
             </nav>

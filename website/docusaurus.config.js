@@ -4,48 +4,46 @@ const katex = require("rehype-katex");
 const internetProfiles = {
   linkedin: {
     label: "LinkedIn",
-    href: "https://www.linkedin.com/in/evanitsg/",
+    href: "https://www.linkedin.com/in/tiffanyrwhite/",
   },
   github: {
     label: "GitHub",
-    href: "https://github.com/digipie",
+    href: "https://github.com/twhite96",
   },
-  padlet: {
-    label: "Padlet",
-    href: "https://padlet.com/about/us/wish/1072760846",
+  mastodon: {
+    label: "Mastodon",
+    href: "https://infosec.exchange/@tiff",
   },
   email: {
     label: "Email",
-    href: "mailto:evan.it.sg@gmail.com",
+    href: "mailto:tiffany@tiffanywhite.dev",
   },
   blog: {
     label: "Blog",
     to: "blog",
   },
   docs: {
-    label: "Documentation",
+    label: "Analysis",
     to: "docs",
   },
   projects: {
     label: "Projects",
     to: "projects",
   },
-  resume: {
-    label: "Resume",
-    href: "https://evantay.com/pdf/resume.pdf",
-  },
+  // resume: {
+  //   label: "Resume",
+  //   href: "https://evantay.com/pdf/resume.pdf",
+  // },
 };
 
 module.exports = {
-  title: "Evan Tay",
-  tagline:
-    "I am a Software Engineer and Cloud Engineer passionate about solving meaningful problems.",
-  url: "https://evantay.com",
-  baseUrl: "/",
-  onBrokenLinks: "throw",
-  favicon: "img/logo.png",
-  organizationName: "digipie",
-  projectName: "kaya-folio",
+    title: '0x8c',
+  tagline: 'A noob\'s journey into cybersecurity and malware analysis.',
+  url: 'https://0x8c.org',
+  onBrokenLinks: 'throw',
+  onBrokenMarkdownLinks: 'warn',
+  favicon: 'img/favicon.svg',
+  baseUrl: '/',
   themeConfig: {
     colorMode: {
       defaultMode: "dark",
@@ -54,26 +52,26 @@ module.exports = {
     },
     navbar: {
       hideOnScroll: true,
-      title: "Evan Tay",
+      title: '0x8c',
       logo: {
-        alt: "Evan Tay",
-        src: "img/logo.png",
-        target: "_self",
+        alt: 'My Site Logo',
+        src: 'img/logo.svg',
+        target: '_self',
       },
       items: [
         { to: "blog/", label: "Blog", position: "left" },
         {
           to: "docs/",
           activeBasePath: "docs",
-          label: "Docs",
+          label: "Analysis",
           position: "left",
         },
         { to: "projects/", label: "Projects", position: "right" },
-        {
-          href: "https://evantay.com/pdf/resume.pdf",
-          label: "Resume",
-          position: "right",
-        },
+        // {
+        //   href: "https://evantay.com/pdf/resume.pdf",
+        //   label: "Resume",
+        //   position: "right",
+        // },
       ],
     },
     footer: {
@@ -83,7 +81,7 @@ module.exports = {
           items: [
             internetProfiles.linkedin,
             internetProfiles.github,
-            internetProfiles.padlet,
+            internetProfiles.mastodon,
             internetProfiles.email,
           ],
         },
@@ -93,12 +91,12 @@ module.exports = {
             internetProfiles.blog,
             internetProfiles.docs,
             internetProfiles.projects,
-            internetProfiles.resume,
+            // internetProfiles.resume,
           ],
         },
       ],
       // I built this website for my own personal use, but you are free to use it so long as you credit me. You can do so by linking back to evantay.com :)
-      copyright: `<a href="https://evantay.com">Design by Evan Tay</a> • <a href="https://github.com/DigiPie/kaya-folio/commits/main">Updated ${new Date().toLocaleDateString()}</a>`,
+      copyright: `0x8c | <a href="https://evantay.com">Design by Evan Tay</a> • <a href="https://github.com/DigiPie/kaya-folio/commits/main">Updated ${new Date().toLocaleDateString()}</a>`,
     },
   },
   presets: [
@@ -113,9 +111,16 @@ module.exports = {
           rehypePlugins: [katex],
         },
         blog: {
-          showReadingTime: true,
+         showReadingTime: true,
+          readingTime: ({content, frontMatter, defaultReadingTime}) =>
+            defaultReadingTime({content, options: {wordsPerMinute: 300}}),
+          blogSidebarTitle: 'Recent Posts',
+          blogSidebarCount: 5,
+          truncateMarker: /<!--\s*(truncate)\s*-->/,
+          sortPosts: 'descending',
+          postsPerPage: 5,
           // Please change this to your repo.
-          editUrl: "https://github.com/DigiPie/kaya-folio/tree/main/website/",
+          editUrl: "https://github.com/twhite96/0x8c2/tree/main/website/",
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
