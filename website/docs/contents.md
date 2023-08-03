@@ -48,14 +48,24 @@ Here, you will find a collection of concise notes on full-stack software enginee
 
 </div>
 
+### Malware Analysis
+
+<div class="contentTableContainer">
+
+|     | Topic                                        | Date Last Updated |
+| --- | -------------------------------------------- | ----------------- |
+| 1   | [John Hammond YouTube](john-hammond-malware) | 2023-08-03        |
+
+</div>
+
 ### Programming
 
 <div class="contentTableContainer">
 
-|     | Topic                        | Date Last Updated |
-| --- | ---------------------------- | ----------------- |
-| 1   | [C](c-cheatsheet)            | December 23, 2020 |
-| 2   | [Javascript](js-cheatsheet)  | August 1, 2021    |
+|     | Topic                              | Date Last Updated |
+| --- | ---------------------------------- | ----------------- |
+| 1   | [C](c-cheatsheet)                  | December 23, 2020 |
+| 2   | [Javascript](js-cheatsheet)        | August 1, 2021    |
 | 3   | [Ruby](ruby-dependency-management) | October 23, 2021  |
 
 </div>

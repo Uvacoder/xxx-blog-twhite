@@ -3,30 +3,27 @@ title: Reading List
 ---
 
 Published on December 23, 2020  
-Updated on July 3, 2021
+Updated on 2023-08-03
 
 This is a collection of software engineering-related articles, books and videos I have read or watch and recommend to others.
 
-## 2021
+## 2023
 
-### Articles 2021
+### Articles 2023
 
 - [Figma: How Figma’s multiplayer technology works](https://www.figma.com/blog/how-figmas-multiplayer-technology-works/): How Figma implemented multiplayer in-house, without having to use operational transforms which is the standard multiplayer algorithm used by apps like Google Docs. I really like how the article explores synchronization issues clearly and succinctly, often with the aid of easy-to-understand animations.
 - [Melodies Sim: Lessons Learnt from Scaling Memcached in Production](https://levelup.gitconnected.com/lessons-learnt-from-scaling-memcached-in-production-86778ab616c7): Scaling Memcached with High Availability and Consistency in mind. **[Read my article review!](scaling-memcached.md)**
 
-### Books 2021
+### Books 2023
 
 - [Martin Kleppmann: Designing Data-Intensive Applications](https://dataintensive.net/): Reading this book was one of the best decisions I ever made as a fledgling software engineer. It enlightens readers on the fundamental ideas behind the broad range of popular data systems out there today. It also discusses the key trade-offs between these systems, so readers can make better-informed decisions about which to use given the constraints and context.
 
-## 2020
+## 2022
 
-### Articles 2020
+### Articles 2022
 
 - [Github: Why Write ADRs](https://github.blog/2020-08-13-why-write-adrs/): Architecture Decision Records (ADRs) are a great way to document how and why a decision was reached within a codebase. ADRs discuss the problem context, concerns, outcomes, alternative options and accepted trade-offs.
 
-### Conferences 2020
-
-- [RailsConf 2014 - Keynote: Writing Software by David Heinemeier Hansson](https://www.youtube.com/watch?v=9LfmrkyP81M): David on how, 'most information system development has very little to do with the _science_ part of computer science' and more!
 
 ### Papers 2020
 

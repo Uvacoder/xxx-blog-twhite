@@ -22,7 +22,6 @@ module.exports = {
           label: "Designing Data-Intensive Applications",
           items: ["reliable-scalable-maintainable"],
         },
-        "ikigai",
       ],
     },
     {
@@ -33,6 +32,20 @@ module.exports = {
         "gcp-gke-cheatsheet",
         "mininet-setup",
         "network-model",
+      ],
+    },
+    {
+      type: "category",
+      label: "Cyber Cheatsheets",
+      items: [
+        "kali-cheatsheet",
+      ],
+    },
+    {
+      type: "category",
+      label: "Malware Courses",
+      items: [
+        "john-hammond-malware",
       ],
     },
     {
