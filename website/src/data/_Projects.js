@@ -5,7 +5,7 @@ const projects = [
     category: "Script",
     title: "RSS Feed Generator",
     slug: "#rss-feed-generator",
-    imageUrl: "img/projects/kayafolio.png",
+    imageUrl: "img/projects/rss-feed-creator.png",
     subtitle:
       "A small Python script to generate an RSS feed from the command line.",
     period: "October 2021 to Present",
