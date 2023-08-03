@@ -9,6 +9,10 @@ module.exports = {
       id: "reading-list",
     },
     {
+      type: "doc",
+      id: "certifications",
+    },
+    {
       type: "category",
       label: "Article Summaries",
       items: ["scaling-memcached"],
