@@ -43,6 +43,7 @@ module.exports = {
       label: "Cyber Cheatsheets",
       items: [
         "kali-cheatsheet",
+        "hacking-for-beginners-cheatsheet"
       ],
     },
     {
