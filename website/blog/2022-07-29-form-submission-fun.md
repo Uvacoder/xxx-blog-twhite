@@ -9,6 +9,8 @@ I signed up for a website that's recently come out of beta after a long wait tim
 
 On the login/settings form it asked you for an _anonymous_ username to post data to the site.
 
+<!--truncate-->
+
 I entered the string: `someone` and received this back from the server in an error message in the UI:
 
 <script src="https://pastebin.com/embed_js/i1eeeqPQ"></script>

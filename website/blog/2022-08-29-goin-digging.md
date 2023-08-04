@@ -9,6 +9,8 @@ I have a few pseudo-technical friends with websites, both using a form of WordPr
 
 I asked them if I could do a few pen tests on their sites to practice my limited skills. They gave me permission, albeit spoken permission which means I will need to get explicit permission in writing before I start, break something important, get sued, and lose friends.
 
+<!--truncate-->
+
 Where to start? Easy. SQL injection.
 
 ## First foray into pen testing a site
