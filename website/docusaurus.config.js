@@ -14,6 +14,10 @@ const internetProfiles = {
     label: "Mastodon",
     href: "https://infosec.exchange/@tiff",
   },
+  youtube: {
+    label: "YouTube",
+    href: "https://youtube.com/@duvallhacks8877"
+  },
   email: {
     label: "Email",
     href: "mailto:tiffany@tiffanywhite.dev",
