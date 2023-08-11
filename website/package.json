@@ -13,7 +13,9 @@
   },
   "dependencies": {
     "@docusaurus/core": "^2.4.0",
+    "@docusaurus/plugin-ideal-image": "^2.4.1",
     "@docusaurus/preset-classic": "^2.4.0",
+    "@docusaurus/theme-live-codeblock": "^2.4.1",
     "@fortawesome/fontawesome-svg-core": "^1.2.32",
     "@fortawesome/free-brands-svg-icons": "^6.4.0",
     "@fortawesome/free-regular-svg-icons": "^6.4.0",

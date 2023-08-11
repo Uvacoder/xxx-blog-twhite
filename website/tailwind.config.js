@@ -10,11 +10,11 @@ module.exports = {
     colors: {
       white: "#fff",
       primary: {
-        300: "#13cc72",
-        400: "#11b565",
+        300: "#4dc74b",
+        400: "#1FCD1C",
         500: "#10ad61",
         600: "#0f9d58",
-        default: "#0f9d58",
+        default: "#0cf380",
         700: "#0d8d4f",
         800: "#0d854b",
         900: "#0a6e3e",
@@ -29,7 +29,7 @@ module.exports = {
         800: "#141414",
         900: "#0d0d0d",
       },
-      success: "#0d8d4f",
+      success: "#0cf380",
       warning: "#f4b400",
       danger: "#db4437",
     },

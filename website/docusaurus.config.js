@@ -18,6 +18,14 @@ const internetProfiles = {
     label: "YouTube",
     href: "https://youtube.com/@duvallhacks8877"
   },
+  lemmy: {
+    label: "Lemmy",
+    href: "https://infosec.pub/u/tiff",
+  },
+  keybase: {
+    label: "Keybase",
+    href: "https://keybase.io/tiffanyrwhite",
+  },
   email: {
     label: "Email",
     href: "mailto:tiffany@tiffanywhite.dev",
@@ -51,8 +59,15 @@ module.exports = {
   themeConfig: {
     colorMode: {
       defaultMode: "dark",
-      disableSwitch: true,
+      disableSwitch: false,
       respectPrefersColorScheme: false,
+    },
+    liveCodeBlock: {
+      /**
+       * The position of the live playground, above or under the editor
+       * Possible values: "top" | "bottom"
+       */
+      playgroundPosition: 'bottom',
     },
     navbar: {
       hideOnScroll: true,
@@ -86,6 +101,8 @@ module.exports = {
             internetProfiles.linkedin,
             internetProfiles.github,
             internetProfiles.mastodon,
+            internetProfiles.keybase,
+            internetProfiles.lemmy,
             internetProfiles.email,
           ],
         },
@@ -104,6 +121,7 @@ module.exports = {
     },
   },
   presets: [
+    "@docusaurus/theme-live-codeblock",
     [
       "@docusaurus/preset-classic",
       {
@@ -152,5 +170,14 @@ module.exports = {
         },
       };
     },
+    ["@docusaurus/plugin-ideal-image",
+    {
+       quality: 70,
+        max: 1030, // max resized image's size.
+        min: 640, // min resized image's size. if original is lower, use that size.
+        steps: 2, // the max number of images generated between min and max (inclusive)
+        disableInDev: false,
+    },
+   ],
   ],
 };

@@ -1,5 +1,5 @@
 import { faPaperPlane } from "@fortawesome/free-solid-svg-icons";
-import { faGithub, faLinkedin, faMastodon, faPadlet } from "@fortawesome/free-brands-svg-icons";
+import { faGithub, faLinkedin, faMastodon, faPadlet, faYoutube } from "@fortawesome/free-brands-svg-icons";
 
 const socialLinks = [
   {
@@ -16,6 +16,11 @@ const socialLinks = [
     faIcon: faMastodon,
     alt: "Mastodon",
     url: "https://infosec.exchange/@tiff",
+  },
+  {
+    faIcon: faYoutube,
+    alt: "YouTube",
+    url: "https://www.youtube.com/@duvallhacks8877",
   },
   {
     faIcon: faPaperPlane,
