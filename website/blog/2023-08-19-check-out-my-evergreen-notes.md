@@ -1,6 +1,6 @@
 ---
 author: tiff
-title: Check Out My Evergreen Notes
+title: Check Out My Cyber Notes
 tags: [notes]
 ---
 
