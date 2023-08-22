@@ -20,12 +20,12 @@ const socialLinks = [
   {
     faIcon: faYoutube,
     alt: "YouTube",
-    url: "https://www.youtube.com/@duvallhacks8877",
+    url: "https://www.youtube.com/@duvallhacks",
   },
   {
     faIcon: faPaperPlane,
     alt: "Email",
-    url: "mailto:tiffany@tiffanywhite.dev",
+    url: "mailto:tiff@tifflabs.org",
   },
 ];
 
