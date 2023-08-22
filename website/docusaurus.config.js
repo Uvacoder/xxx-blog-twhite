@@ -49,7 +49,7 @@ const internetProfiles = {
 };
 
 module.exports = {
-    title: '0x8c',
+  title: '0x8c',
   tagline: 'A noob\'s journey into cybersecurity and malware analysis.',
   url: 'https://0x8c.org',
   onBrokenLinks: 'throw',
@@ -133,9 +133,9 @@ module.exports = {
           rehypePlugins: [katex],
         },
         blog: {
-         showReadingTime: true,
-          readingTime: ({content, frontMatter, defaultReadingTime}) =>
-            defaultReadingTime({content, options: {wordsPerMinute: 300}}),
+          showReadingTime: true,
+          readingTime: ({ content, frontMatter, defaultReadingTime }) =>
+            defaultReadingTime({ content, options: { wordsPerMinute: 300 } }),
           blogSidebarTitle: 'Recent Posts',
           blogSidebarCount: 5,
           truncateMarker: /<!--\s*(truncate)\s*-->/,
@@ -143,6 +143,18 @@ module.exports = {
           postsPerPage: 5,
           // Please change this to your repo.
           editUrl: "https://github.com/twhite96/0x8c2/tree/main/website/",
+          feedOptions: {
+            type: 'all',
+            copyright: `Copyright © ${new Date().getFullYear()} 0x8C.`,
+            createFeedItems: async (params) => {
+              const { blogPosts, defaultCreateFeedItems, ...rest } = params;
+              return defaultCreateFeedItems({
+                // keep only the 10 most recent blog posts in the feed
+                blogPosts: blogPosts.filter((item, index) => index < 10),
+                ...rest
+              });
+            }
+          },
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
@@ -159,7 +171,7 @@ module.exports = {
       crossorigin: "anonymous",
     },
   ],
-  plugins:    [
+  plugins: [
     async function tailwindPlugin(context, options) {
       return {
         name: "docusaurus-tailwindcss",
@@ -171,13 +183,13 @@ module.exports = {
       };
     },
     ["@docusaurus/plugin-ideal-image",
-    {
-       quality: 70,
+      {
+        quality: 70,
         max: 1030, // max resized image's size.
         min: 640, // min resized image's size. if original is lower, use that size.
         steps: 2, // the max number of images generated between min and max (inclusive)
         disableInDev: false,
-    },
-   ],
+      },
+    ],
   ],
 };

@@ -60,6 +60,7 @@ module.exports = {
         {
           Ruby: ["ruby-dependency-management"],
         },
+        "python-libraries-cheatsheet",
         "c-cheatsheet",
         "js-cheatsheet",
       ],
@@ -70,9 +71,6 @@ module.exports = {
       items: [
         {
           Git: ["git-cheatsheet", "git-ignore-file"],
-        },
-        {
-          iTerm2: ["iterm2-zsh-setup", "iterm2-cheatsheet"],
         },
         "os-ubuntu-cheatsheet",
       ],
