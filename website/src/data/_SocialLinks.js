@@ -1,5 +1,5 @@
-import { faPaperPlane } from "@fortawesome/free-solid-svg-icons";
-import { faGithub, faLinkedin, faMastodon, faPadlet, faYoutube } from "@fortawesome/free-brands-svg-icons";
+import { faPaperPlane, faDiagramProject } from "@fortawesome/free-solid-svg-icons";
+import { faGithub, faLinkedin, faMastodon, faYoutube } from "@fortawesome/free-brands-svg-icons";
 
 const socialLinks = [
   {
@@ -26,6 +26,11 @@ const socialLinks = [
     faIcon: faPaperPlane,
     alt: "Email",
     url: "mailto:tiff@tifflabs.org",
+  },
+  {
+    faIcon: faDiagramProject,
+    alt: "Notes",
+    url: "https://notes.0x8c.org",
   },
 ];
 

@@ -42,6 +42,10 @@ const internetProfiles = {
     label: "Projects",
     to: "projects",
   },
+  notes: {
+    label: "Cyber Notes",
+    href: "https://notes.0x8c.org",
+  },
   // resume: {
   //   label: "Resume",
   //   href: "https://evantay.com/pdf/resume.pdf",
@@ -112,7 +116,7 @@ module.exports = {
             internetProfiles.blog,
             internetProfiles.docs,
             internetProfiles.projects,
-            // internetProfiles.resume,
+            internetProfiles.notes,
           ],
         },
       ],
