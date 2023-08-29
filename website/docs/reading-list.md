@@ -3,7 +3,7 @@ title: Reading List
 ---
 
 Published on December 23, 2020  
-Updated on 2023-08-03
+Updated on 2023-08-22
 
 This is a collection of software engineering-related articles, books and videos I have read or watch and recommend to others.
 

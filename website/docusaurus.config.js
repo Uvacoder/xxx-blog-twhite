@@ -145,8 +145,7 @@ module.exports = {
           truncateMarker: /<!--\s*(truncate)\s*-->/,
           sortPosts: 'descending',
           postsPerPage: 5,
-          // Please change this to your repo.
-          editUrl: "https://github.com/twhite96/0x8c2/tree/main/website/",
+          editUrl: "https://github.com/twhite96/0x8c2/edit/tree/main/website/",
           feedOptions: {
             type: 'all',
             copyright: `Copyright © ${new Date().getFullYear()} 0x8C.`,

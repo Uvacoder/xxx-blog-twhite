@@ -2,6 +2,7 @@
 author: tiff
 title: Exploring Ransomware
 slug: exploring-ransomware
+draft: true
 tags: [hacking, ransomware]
 ---
 

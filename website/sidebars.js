@@ -51,6 +51,7 @@ module.exports = {
       label: "Malware Courses",
       items: [
         "john-hammond-malware",
+        "network-chuck"
       ],
     },
     {
