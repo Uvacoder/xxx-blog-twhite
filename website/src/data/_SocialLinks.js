@@ -1,4 +1,4 @@
-import { faPaperPlane, faDiagramProject } from "@fortawesome/free-solid-svg-icons";
+import { faPaperPlane, faDiagramProject, faBook } from "@fortawesome/free-solid-svg-icons";
 import { faGithub, faLinkedin, faMastodon, faYoutube } from "@fortawesome/free-brands-svg-icons";
 
 const socialLinks = [
@@ -31,6 +31,11 @@ const socialLinks = [
     faIcon: faDiagramProject,
     alt: "Notes",
     url: "https://notes.0x8c.org",
+  },
+  {
+    faIcon: faBook,
+    alt: "Wiki",
+    url: "https://wiki.0x8c.org"
   },
 ];
 

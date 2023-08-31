@@ -46,6 +46,10 @@ const internetProfiles = {
     label: "Cyber Notes",
     href: "https://notes.0x8c.org",
   },
+  wiki: {
+    label: "0x8C Wiki",
+    href: "https://wiki.0x8c.org",
+  },
   // resume: {
   //   label: "Resume",
   //   href: "https://evantay.com/pdf/resume.pdf",

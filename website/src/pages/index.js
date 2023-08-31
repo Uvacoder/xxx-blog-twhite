@@ -58,7 +58,7 @@ function Home() {
               className={styles.aboutProfilePic}
               src={useBaseUrl("img/profilepic.jpg")}
             />
-            <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&duration=800&pause=1000&color=4DC74B&width=435&lines=Dev;Pentester;Malcontent;An+error+has+occurred.+To+continue%3A+;Press+Enter+to+return+to+Windows%2C+or;Press+F+in+the+chat+to+pay+respect;+to+your+pwned+network" alt="Typing SVG" /></a>
+            <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&duration=800&pause=1000&color=077f57&width=435&lines=Dev;Pentester;Malcontent;An+error+has+occurred.+To+continue%3A+;Press+Enter+to+return+to+Windows%2C+or;Press+F+in+the+chat+to+pay+respect;+to+your+pwned+network" alt="Typing SVG" /></a>
           </div>
         </div>
         <section className={styles.directory}>
