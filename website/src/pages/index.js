@@ -88,7 +88,7 @@ function Home() {
                   <div className="pagination-nav__label">My projects</div>
                 </Link>
               </div>
-              <div className="pagination-nav__item pagination-nav__item--next">
+              {/* <div className="pagination-nav__item pagination-nav__item--next">
                 <a
                   className="pagination-nav__link"
                   href={useBaseUrl("pdf/resume.pdf")}
@@ -96,7 +96,7 @@ function Home() {
                   <div className="pagination-nav__sublabel">Download</div>
                   <div className="pagination-nav__label">My resume</div>
                 </a>
-              </div>
+              </div> */}
             </nav>
           </div>
         </section>
