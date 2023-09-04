@@ -94,11 +94,16 @@ module.exports = {
           position: "left",
         },
         { to: "projects/", label: "Projects", position: "right" },
-        // {
-        //   href: "https://evantay.com/pdf/resume.pdf",
-        //   label: "Resume",
-        //   position: "right",
-        // },
+        {
+          href: "https://notes.0x8c.org",
+          label: "Notes",
+          position: "right",
+        },
+        {
+          href: "https://wiki.0x8c.org",
+          label: "Wiki",
+          position: "right",
+        },
       ],
     },
     footer: {
@@ -120,7 +125,6 @@ module.exports = {
             internetProfiles.blog,
             internetProfiles.docs,
             internetProfiles.projects,
-            internetProfiles.notes,
           ],
         },
       ],
