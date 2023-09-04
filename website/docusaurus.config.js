@@ -50,10 +50,7 @@ const internetProfiles = {
     label: "0x8C Wiki",
     href: "https://wiki.0x8c.org",
   },
-  uses: {
-    label: "What I Use",
-    href: "https://uses.tiff.tools/",
-  },
+  
   // resume: {
   //   label: "Resume",
   //   href: "https://evantay.com/pdf/resume.pdf",
@@ -107,6 +104,10 @@ module.exports = {
           href: "https://wiki.0x8c.org",
           label: "Wiki",
           position: "right",
+        },
+        {
+          label: "Uses",
+          href: "https://uses.tiff.tools/",
         },
       ],
     },
