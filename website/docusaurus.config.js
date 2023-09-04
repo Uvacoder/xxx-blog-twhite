@@ -108,6 +108,7 @@ module.exports = {
         {
           label: "Uses",
           href: "https://uses.tiff.tools/",
+          position: "right",
         },
       ],
     },
