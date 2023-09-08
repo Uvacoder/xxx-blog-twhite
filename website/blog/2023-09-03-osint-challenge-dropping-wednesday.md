@@ -1,5 +1,5 @@
 ---
-author: "tiff"
+author: tiff
 title: OSINT Challenge Dropping Wednesday
 tags: [external]
 ---

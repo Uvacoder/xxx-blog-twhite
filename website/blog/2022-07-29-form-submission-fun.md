@@ -1,7 +1,6 @@
 ---
 author: tiff
 title: Form Submission Fun
-slug: form-submissions
 tags: [forms, security, web]
 ---
 
