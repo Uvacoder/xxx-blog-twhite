@@ -24,5 +24,5 @@ I spotted a few different key items on the image, which you can see in the photo
 
 I threw the solution up on my *cybersecurity* YouTube channel.
 
-<iframe width="100%" height="515" src="https://www.youtube-nocookie.com/embed/b-Y5LSEsgi0?si=VWAzO5qEbXdK76dQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe class="video" src="https://www.youtube-nocookie.com/embed/b-Y5LSEsgi0?si=VWAzO5qEbXdK76dQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
