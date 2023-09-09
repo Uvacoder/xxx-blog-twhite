@@ -41,7 +41,7 @@ function Home() {
           <SocialLinks />
           <p>
             <Link to={useBaseUrl("#main")}>
-              <button className="border-0 rounded p-2 pl-4 pr-0 bg-primary-400 hover:bg-primary-800 transition text-secondary-300 text-lg cursor-pointer">
+              <button className="border-0 rounded p-2 pl-4 pr-0 bg-primary-600 hover:bg-primary-800 transition text-secondary-300 text-lg cursor-pointer">
                 whoami<span className="pl-1 animate-pulse">▎</span>
               </button>
             </Link>
@@ -50,7 +50,7 @@ function Home() {
       </header>
       <main id="main" ref={mainRef} hidden={true}>
       <div className={styles.aboutHeader}>
-        <h2 className="border-0 border-b-4 border-solid bg-primary-800">Who am I</h2>
+        <h2 className="border-0 border-b-4 border-solid border-success">Who am I</h2>
       </div>
        <div className={styles.about}>
           <div>
