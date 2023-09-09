@@ -50,7 +50,7 @@ function Home() {
       </header>
       <main id="main" ref={mainRef} hidden={true}>
       <div className={styles.aboutHeader}>
-        <h2 className="border-0 border-b-4 border-solid border-success">Who am I</h2>
+        <h2 className="border-0 border-b-4 border-solid bg-primary-800">Who am I</h2>
       </div>
        <div className={styles.about}>
           <div>
