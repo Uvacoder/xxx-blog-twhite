@@ -39,7 +39,7 @@ function Home() {
             <span className="hilight space">cybersecurity & malware analysis</span>. i'm also passionate about home labs and devops.
           </p>
           <br />
-          <p>64-bit PGP Fingerprint: <span className="hilight-norm">30E4 CDB6 EFF3 2A08</span></p>
+          <p>If you'd like to contact me using encryption you can use this Fingerprint: <span className="hilight-norm">AB94 86E7 78D5 7428 BD64 DF21 30E4 CDB6 EFF3 2A08</span></p>
           <SocialLinks />
           <p>
             <Link to={useBaseUrl("#main")}>
