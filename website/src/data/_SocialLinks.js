@@ -25,7 +25,7 @@ const socialLinks = [
   {
     faIcon: faPaperPlane,
     alt: "Email",
-    url: "mailto:tiff@tifflabs.org",
+    url: "mailto:tiff@0x8c.org",
   },
   // {
   //   faIcon: faDiagramProject,
