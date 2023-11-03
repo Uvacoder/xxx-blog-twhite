@@ -28,7 +28,7 @@ const internetProfiles = {
   },
   email: {
     label: "Email",
-    href: "mailto:tiff@tifflabs.org",
+    href: "mailto:tiff@0x8c.org",
   },
   blog: {
     label: "Blog",
