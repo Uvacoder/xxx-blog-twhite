@@ -35,9 +35,11 @@ function Home() {
           <p>Hi, my name is</p>
           <h1 className="text-success">tiff.</h1>
           <p>
-            I am a <span className="text-warning">frontend engineer</span> looking to move to {" "}
-            <span className="text-danger">cybersecurity & malware analysis</span>. i'm also passionate about home labs and devops.
+            I am a <span className="hilight space">former frontend engineer</span> pivoting to {" "}
+            <span className="hilight space">cybersecurity & malware analysis</span>. i'm also passionate about home labs and devops.
           </p>
+          <br />
+          <p>64-bit PGP Fingerprint: <span className="hilight-norm">30E4 CDB6 EFF3 2A08</span></p>
           <SocialLinks />
           <p>
             <Link to={useBaseUrl("#main")}>
@@ -88,15 +90,15 @@ function Home() {
                   <div className="pagination-nav__label">My projects</div>
                 </Link>
               </div>
-              {/* <div className="pagination-nav__item pagination-nav__item--next">
+              <div className="pagination-nav__item pagination-nav__item--next">
                 <a
                   className="pagination-nav__link"
-                  href={useBaseUrl("pdf/resume.pdf")}
+                  href={useBaseUrl("t_keys.asc")}
                 >
-                  <div className="pagination-nav__sublabel">Download</div>
-                  <div className="pagination-nav__label">My resume</div>
+                  <div className="pagination-nav__sublabel">View</div>
+                  <div className="pagination-nav__label">My PGP Key</div>
                 </a>
-              </div> */}
+              </div>
             </nav>
           </div>
         </section>
