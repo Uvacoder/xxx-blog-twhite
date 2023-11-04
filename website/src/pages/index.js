@@ -103,6 +103,7 @@ function Home() {
           </div>
         </section>
         <a style={{display:"none"}} rel="me" href="https://infosec.exchange/@tiff">Mastodon</a>
+        <a style={{display:"none"}} rel="me" href="https://infosec.exchange/@0x8c">Mastodon</a>
       </main>
     </Layout>
   );
