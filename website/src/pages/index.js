@@ -102,6 +102,7 @@ function Home() {
             </nav>
           </div>
         </section>
+        <a style="display:none;" rel="me" href="https://infosec.exchange/@tiff">Mastodon</a>
       </main>
     </Layout>
   );
