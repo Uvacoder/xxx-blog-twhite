@@ -117,7 +117,7 @@ p {
   .hilight, .hilight-norm {
     color: #141414;
     padding: 4px;
-    background-color: white;
+    background-color: rgb(0, 255, 119);
   }
 
 .me {
