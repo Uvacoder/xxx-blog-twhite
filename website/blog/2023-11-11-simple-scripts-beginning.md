@@ -29,9 +29,8 @@ Since I come from a software dev background, this felt like the right thing to d
 
 I worked with Python almost 10 years ago when I was learning to code. I enjoyed it, but the wave was frontend; the framework wars were brewing and I was caught up in the hype, such as this:
 
-<!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/sxcRxZpUJWo?si=W3olS1W09JKqMGc7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
+<iframe width="1111100%" height="315" src="https://www.youtube.com/embed/sxcRxZpUJWo?si=W3olS1W09JKqMGc7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-https://www.youtube.com/embed/sxcRxZpUJWo?si=W3olS1W09JKqMGc7
 
 *No offense to Kent, but this is certianly one of the videos of all time*
 

@@ -3,7 +3,44 @@ import React from "react";
 const projects = [
   {
     category: "Open Source Tool",
-    title: "Simple DDoS",
+    title: "Simple DNS Enumeration Tool",
+    slug: "#simple-dns-enum",
+    imageUrl: "img/projects/smet.png",
+    subtitle:
+      "A proof of concept DNS Enumeration CLI tool",
+    period: "November 2023 - November 2023",
+    tech: "Python",
+    description: (
+      <>
+        <p>
+          A CLI tool iterate over a list of DNS records and print them to the console.
+        </p>
+        <p>
+          I built it using{" "}
+          <a href="https://www.python.org/" target="_blank">
+            Python
+          </a>{" "}
+          and{" "}
+          Python standard libraries.
+          .
+        </p>
+
+      </>
+    ),
+    links: [
+      {
+        name: "GitHub repository",
+        link: "https://github.com/twhite96/simple-dns-enum-tool",
+      },
+      {
+        name: "Write-up",
+        link: "http://0x8c.org",
+      },
+    ],
+  },
+  {
+    category: "Open Source Tool",
+    title: "Simple DNS Enumeration",
     slug: "#simple-ddos",
     imageUrl: "img/projects/ddospy2.png",
     subtitle:
