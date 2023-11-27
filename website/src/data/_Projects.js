@@ -2,19 +2,19 @@ import React from "react";
 
 const projects = [
   {
-    category: "Script",
-    title: "RSS Feed Generator",
-    slug: "#rss-feed-generator",
-    imageUrl: "img/projects/rss-feed-creator.png",
+    category: "Open Source Tool",
+    title: "Simple DDoS",
+    slug: "#simple-ddos",
+    imageUrl: "img/projects/ddospy2.png",
     subtitle:
-      "A small Python script to generate an RSS feed from the command line.",
-    period: "October 2021 to Present",
-    tech: "Python, Typer, Feedgen",
+      "A proof of concept DDoS CLI tool",
+    period: "October 2023 - November 2023",
+    tech: "Python",
     description: (
       <>
         <p>
-          I first started this script project back in October 2021.
-          Currently a work in progress.
+          A CLI tool to DDoS a target host (your own please) written
+          in Python.
         </p>
         <p>
           I built it using{" "}
@@ -22,9 +22,7 @@ const projects = [
             Python
           </a>{" "}
           and{" "}
-          <a href="https://typer.tiangolo.com/" target="_blank">
-            Typer
-          </a>
+          Python standard libraries.
           .
         </p>
 
@@ -33,16 +31,16 @@ const projects = [
     links: [
       {
         name: "GitHub repository",
-        link: "https://github.com/twhite96/rss-feed-creator",
+        link: "https://github.com/twhite96/ddos-script",
       },
       {
-        name: "Docs",
-        link: "http://rsscreator.tiffs.app/",
+        name: "Write-up",
+        link: "http://0x8c.org",
       },
     ],
   },
   {
-    category: "Web Scraping",
+    category: "Open Source Tool",
     title: "Puppeteer scrape, v1",
     slug: "#puppeteer-scrape-v1",
     imageUrl: "img/projects/puppet.png",

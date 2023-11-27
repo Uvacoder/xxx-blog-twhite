@@ -17,7 +17,7 @@ I enjoy watching the [TCM Security YouTube channel](https://www.youtube.com/@TCM
 The one video in particular stood out to me:
 
 
-<style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src="https://www.youtube.com/embed/y7FRIEURJ34?si=jBe4VZ_H5ac5x4x6" frameborder="0" allowfullscreen></iframe></div></style>
+<iframe width="100%" height="315" src="https://www.youtube.com/embed/y7FRIEURJ34?si=IrHQPrqWPmljJP2R" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 In it, The Cyber Mentor talks about having side projects to throw on your GitHub and as such, list on your resume.
 
@@ -29,7 +29,9 @@ Since I come from a software dev background, this felt like the right thing to d
 
 I worked with Python almost 10 years ago when I was learning to code. I enjoyed it, but the wave was frontend; the framework wars were brewing and I was caught up in the hype, such as this:
 
-<style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src="https://www.youtube.com/embed/sxcRxZpUJWo?si=fUMEs3-kXpznJScy" frameborder="0" allowfullscreen></iframe></div></style>
+<!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/sxcRxZpUJWo?si=W3olS1W09JKqMGc7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
+
+https://www.youtube.com/embed/sxcRxZpUJWo?si=W3olS1W09JKqMGc7
 
 *No offense to Kent, but this is certianly one of the videos of all time*
 

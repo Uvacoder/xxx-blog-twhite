@@ -1,5 +1,6 @@
 const math = require("remark-math");
 const katex = require("rehype-katex");
+const oembed = require('remark-oembed')
 
 const internetProfiles = {
   linkedin: {
@@ -24,7 +25,7 @@ const internetProfiles = {
   },
   keybase: {
     label: "Keybase",
-    href: "https://keybase.io/tiffanyrwhite",
+    href: "https://keybase.io/0x8c",
   },
   email: {
     label: "Email",
@@ -149,6 +150,7 @@ module.exports = {
           editCurrentVersion: false,
           remarkPlugins: [math],
           rehypePlugins: [katex],
+          remarkPlugins: [oembed]
         },
         blog: {
           showReadingTime: true,
