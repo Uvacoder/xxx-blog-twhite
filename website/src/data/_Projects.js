@@ -40,7 +40,7 @@ const projects = [
   },
   {
     category: "Open Source Tool",
-    title: "Simple DNS Enumeration",
+    title: "Simple DDoS Tool",
     slug: "#simple-ddos",
     imageUrl: "img/projects/ddospy2.png",
     subtitle:
