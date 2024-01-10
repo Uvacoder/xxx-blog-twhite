@@ -1,13 +1,16 @@
 /* stylelint-disable docusaurus/copyright-header */
 
 .heroBanner {
-  background-color: var(--ifm-color-secondary-darker);
-  color: var(--ifm-color-secondary-lightest);
   overflow: hidden;
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 3.6rem 1.2rem;
+  color: var(--ifm-color-secondary);
+}
+
+a:not():where(.footer) {
+  color: #44ad42 !important;
 }
 
 .heroBannerWrapper {
@@ -20,6 +23,14 @@
   font-weight: 600;
 }
 
+.navbar {
+  background-color: var(--ifm-navbar-background-color);
+    box-shadow: var(--ifm-navbar-shadow);
+    display: flex;
+    height: var(--ifm-navbar-height);
+    padding: var(--ifm-navbar-padding-vertical) var(--ifm-navbar-padding-horizontal);
+}
+
 .heroBanner p {
   font-size: 1.2rem;
   margin: 0 4px;
@@ -27,8 +38,8 @@
 }
 
 .aboutHeader {
-  background-color: var(--ifm-color-secondary-darker);
-  color: var(--ifm-color-secondary-lighter);
+  background-color: var(--ifm-color-secondary-lightest);
+  color: var(--ifm-color-secondary-darkest);
   padding: 3.6rem 0 1rem;
   text-align: center;
   position: relative;
@@ -42,8 +53,8 @@
 }
 
 .about {
-  background-color: var(--ifm-color-secondary-lightest);
-  color: var(--ifm-color-secondary-darker);
+  background-color: white;
+  color: var(--ifm-color-secondary-darkest);
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -67,12 +78,21 @@
   font-weight: bold;
 }
 
+.name {
+  color: var(--ifm-color-primary-dark);
+}
+
+footer.footer {
+  background-color: var(--ifm-color-secondary-darkest);
+}
+
 .directory {
-  background-color: var(--ifm-color-secondary-darker);
-  color: var(--ifm-color-secondary-lightest);
+  background-color: var(--ifm-color-secondary-lightest);
+  color: #141414;
   padding: 3.6rem 0.4rem;
   width: 100%;
 }
+
 
 @media screen and (max-width: 966px) {
   .about {

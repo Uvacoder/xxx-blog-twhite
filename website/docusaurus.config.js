@@ -51,11 +51,10 @@ const internetProfiles = {
     label: "0x8C Wiki",
     href: "https://wiki.0x8c.org",
   },
-  
-  // resume: {
-  //   label: "Resume",
-  //   href: "https://evantay.com/pdf/resume.pdf",
-  // },
+  about: {
+    label: "About",
+    href: "https://about.0x8c.org",
+  },
 };
 
 module.exports = {
@@ -68,9 +67,9 @@ module.exports = {
   baseUrl: '/',
   themeConfig: {
     colorMode: {
-      defaultMode: "dark",
-      disableSwitch: true,
-      respectPrefersColorScheme: false,
+      defaultMode: 'light',
+      disableSwitch: false,
+      respectPrefersColorScheme: true,
     },
     liveCodeBlock: {
       /**
@@ -109,6 +108,11 @@ module.exports = {
         {
           label: "Uses",
           href: "https://uses.tiff.tools/",
+          position: "right",
+        },
+        {
+          label: "About",
+          href: "https://about.0x8c.org",
           position: "right",
         },
       ],

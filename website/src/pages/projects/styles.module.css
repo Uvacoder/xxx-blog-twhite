@@ -1,7 +1,7 @@
 /* stylelint-disable docusaurus/copyright-header */
 .projectPageHeader {
-  background-color: var(--ifm-color-secondary-darker);
-  color: var(--ifm-color-secondary-lighter);
+  background-color: var(--ifm-color-secondary-lightest);
+    color: var(--ifm-color-secondary-darkest);
   display: block;
   overflow: hidden;
   padding: 1rem 0;
@@ -53,8 +53,8 @@
 
 
 .directory {
-  background-color: var(--ifm-color-secondary-darker);
-  color: var(--ifm-color-secondary-lightest);
+background-color: var(--ifm-color-secondary-lightest);
+  color: var(--ifm-color-secondary-darkest);
   padding: 3.6rem 0.4rem;
   width: 100%;
 }

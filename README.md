@@ -1,9 +1,13 @@
+<!-- <p align="center">
+  <img width="100%" src="./assets/labs.svg" />
+</p> -->
+
 <h1 align="center">
   0x8C
 </h1>
 
 <p align="center">
-  A software engineer portfolio template built with <a href="https://v2.docusaurus.io/">Docusaurus v2</a>, <a href="https://reactjs.org/">ReactJS</a>, and <i><a href="https://lmgtfy.app/?q=kaya">Kaya</a></i>.
+  A blog where a hacker talks about hacking.
 </p>
 
-Designed by [evantay.com](https://evantay.com/).
+Designed by [evantay.com](https://evantay.com/) with Docusaurus v2.
