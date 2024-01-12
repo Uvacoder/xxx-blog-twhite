@@ -32,6 +32,11 @@ This is a collection of software engineering-related articles, books and videos 
 
 ### Books
 
+**Find some interesting books below**
+
+[Hacking books repo](https://github.com/twhite96/hacking-books)
+
+
 - [Malware Analyst's Cookbook and DVD: Tools and Techniques for Fighting Malicious Code | Wiley](https://www.wiley.com/en-us/Malware+Analyst%27s+Cookbook+and+DVD%3A+Tools+and+Techniques+for+Fighting+Malicious+Code-p-9781118008294): So far, the best of the books I've downloaded and read.
 - [The Antivirus Hacker's Handbook [Book]](https://www.oreilly.com/library/view/the-antivirus-hackers/9781119028758/): very basic in its first few chapters so far. I've skipped large swaths of the beginning of the book as it goes over what Antivirus is and what it does and doesn't do. Most people should skip over these chapters.
 
