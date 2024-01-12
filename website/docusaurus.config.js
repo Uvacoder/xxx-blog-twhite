@@ -35,13 +35,13 @@ const internetProfiles = {
     label: "Blog",
     to: "blog",
   },
-  docs: {
-    label: "Analysis",
-    to: "docs",
-  },
   projects: {
     label: "Projects",
     to: "projects",
+  },
+    docs: {
+    label: "Analysis",
+    to: "docs",
   },
   notes: {
     label: "Cyber Notes",
@@ -88,12 +88,6 @@ module.exports = {
       },
       items: [
         { to: "blog/", label: "Blog", position: "left" },
-        {
-          to: "docs/",
-          activeBasePath: "docs",
-          label: "Analysis",
-          position: "left",
-        },
         { to: "projects/", label: "Projects", position: "right" },
         {
           href: "https://notes.0x8c.org",
@@ -114,6 +108,11 @@ module.exports = {
           label: "About",
           href: "https://about.0x8c.org",
           position: "right",
+        },
+        {
+          label: "HTB Write-ups",
+          href: "https://htb-writeups.0x8c.org/",
+          position: "left",
         },
       ],
     },

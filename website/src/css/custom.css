@@ -159,6 +159,11 @@ p {
   color: var(--ifm-color-primary-dark) !important;
 }
 
+::selection {
+  background-color: var(--ifm-color-primary-dark);
+  color:#0d0d0d;
+}
+
 
   .hilight, .hilight-norm {
     color: white;
