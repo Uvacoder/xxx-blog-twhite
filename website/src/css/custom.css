@@ -161,7 +161,7 @@ p {
 
 ::selection {
   background-color: var(--ifm-color-primary-dark);
-  color:#0d0d0d;
+  color: white;
 }
 
 
