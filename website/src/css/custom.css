@@ -9,14 +9,14 @@
  @tailwind utilities;
 
 /* You can override the default Infima variables here. */
-:root {
+:root { 
   --ifm-color-primary: #4dc74b;
   --ifm-color-primary-dark: #44ad42;
   --ifm-color-primary-darker: #2b8b29;
   --ifm-color-primary-darkest: #237b22;
-  --ifm-color-primary-light: #04dc70;
-  --ifm-color-primary-lighter: #0cf380;
-  --ifm-color-primary-lightest: #00ff7f;
+  --ifm-color-primary-light: #29d5b0;
+  --ifm-color-primary-lighter: #32d8b4;
+  --ifm-color-primary-lightest: #4fddbf;
   --ifm-color-secondary: #878787;
   --ifm-color-secondary-dark: #616161;
   --ifm-color-secondary-darker: #141414;
@@ -24,13 +24,53 @@
   --ifm-color-secondary-light: #adadad;
   --ifm-color-secondary-lighter: #d4d4d4;
   --ifm-color-secondary-lightest: #ededed;
-  --ifm-navbar-background-color: #141414;
-  --ifm-background-color: #141414;
   --ifm-color-success: #04dc70;
   --ifm-color-warning: #f4b400;
   --ifm-color-danger: #db4437;
   --ifm-link-color: #0cf380;
   --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+}
+
+[data-theme='light'] {
+  --ifm-color-primary: #4dc74b;
+  --ifm-color-primary-dark: #44ad42;
+  --ifm-color-primary-darker: #2b8b29;
+  --ifm-color-primary-darkest: #237b22;
+  --ifm-link-color: var(--ifm-color-primary-dark);
+  --ifm-color-primary-light: #29d5b0;
+  --ifm-color-primary-lighter: #32d8b4;
+  --ifm-color-primary-lightest: #4fddbf;
+  --ifm-footer-copyright-color: #44ad42;
+  /* --ifm-footer-background-color: var(--ifm-color-secondary-darkest); */
+  --ifm-color-secondary: #141414;
+  --ifm-color-secondary-light: #adadad;
+  --ifm-color-secondary-lighter: #d4d4d4;
+  --ifm-color-secondary-lightest: #F5F6F7;
+  --ifm-navbar-shadow:var(--ifm-navbar-background-color);
+  --ifm-color-secondary-dark: #616161;
+  --ifm-color-secondary-darker: #141414;
+  --ifm-color-secondary-darkest: #0d0d0d;
+  --ifm-navbar-background-color: #f7f7f7;
+}
+
+[data-theme='dark'] {
+  --ifm-color-primary: #4dc74b;
+  --ifm-color-primary-dark: #44ad42;
+  --ifm-color-primary-darker: #2b8b29;
+  --ifm-color-primary-darkest: #237b22;
+  --ifm-color-primary-light: #04dc70;
+  --ifm-color-primary-lighter: #0cf380;
+  --ifm-color-primary-lightest: #00ff7f;
+  --ifm-footer-copyright-color: var(--ifm-color-primary-light);
+  --ifm-color-secondary: #fefefe;
+  --ifm-color-secondary-light:#adadad;
+  --ifm-color-secondary-lighter:#d4d4d4;
+  --ifm-color-secondary-lightest:#F5F6F7;
+  --ifm-color-secondary-dark:#616161;
+  --ifm-color-secondary-darker:#141414;
+  --ifm-color-secondary-darkest:#0d0d0d;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
 
 .docusaurus-highlight-code-line {
@@ -89,6 +129,10 @@ p {
   color: var(--ifm-button-color);
 }
 
+.footer__bottom>.footer__copyright > a {
+  color: #44ad42 !important;
+}
+
 .video {
   aspect-ratio: 16 / 9;
   width: 100%;
@@ -111,13 +155,15 @@ p {
     background-position: left center, center, right;
   } */
 
-
+.pagination-nav__link {
+  color: var(--ifm-color-primary-dark) !important;
+}
 
 
   .hilight, .hilight-norm {
-    color: #141414;
+    color: white;
     padding: 4px;
-    background-color: rgb(0, 255, 119);
+    background-color: #0F9E59;
   }
 
 .me {

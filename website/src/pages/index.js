@@ -33,7 +33,7 @@ function Home() {
           style={{ minHeight: bannerHeight, display: isLoading ? "none" : "block" }}
         >
           <p>Hi, my name is</p>
-          <h1 className="text-success">tiff.</h1>
+          <h1 className={styles.name}>tiff.</h1>
           <p>
             I am a <span className="hilight space">former frontend engineer</span> pivoting to {" "}
             <span className="hilight space">cybersecurity & malware analysis</span>. i'm also passionate about home labs and devops.
@@ -43,7 +43,7 @@ function Home() {
           <SocialLinks />
           <p>
             <Link to={useBaseUrl("#main")}>
-              <button className="border-0 rounded p-2 pl-4 pr-0 bg-primary-600 hover:bg-primary-800 transition text-secondary-300 text-lg cursor-pointer">
+              <button className="border-0 rounded p-2 pl-4 pr-0 bg-primary-700 hover:bg-primary-800 transition text-secondary-300 text-lg cursor-pointer">
                 whoami<span className="pl-1 animate-pulse">▎</span>
               </button>
             </Link>
