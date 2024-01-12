@@ -24,6 +24,7 @@
     "@mdx-js/react": "^1.6.21",
     "autoprefixer": "^10.4.13",
     "clsx": "^1.1.1",
+    "docusaurus-plugin-plausible": "^0.0.5",
     "postcss": "^8.4.19",
     "react": "^16.14.0",
     "react-dom": "^16.14.0",
