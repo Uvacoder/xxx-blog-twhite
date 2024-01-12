@@ -208,7 +208,7 @@ module.exports = {
     [
       'docusaurus-plugin-plausible',
       {
-        domain: 'your-website.com',
+        domain: '0x8c.org',
       },
     ],
     ["@docusaurus/plugin-ideal-image",
