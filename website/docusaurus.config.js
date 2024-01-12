@@ -205,10 +205,12 @@ module.exports = {
         },
       };
     },
-    'docusaurus-plugin-plausible',
+    [
+      'docusaurus-plugin-plausible',
       {
-        domain: '0x8c.org',
+        domain: 'your-website.com',
       },
+    ],
     ["@docusaurus/plugin-ideal-image",
       {
         quality: 70,
