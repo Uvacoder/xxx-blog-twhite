@@ -29,7 +29,7 @@ const internetProfiles = {
   },
   email: {
     label: "Email",
-    href: "mailto:tiff@0x8c.org",
+    href: "mailto:gentle.job7737@fastmail.com",
   },
   blog: {
     label: "Blog",
